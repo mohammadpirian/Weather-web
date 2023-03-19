@@ -1,4 +1,4 @@
-import El from "../../library/El";
+import El from "../library/El";
 
 const Container = (child) => {
   return El({
