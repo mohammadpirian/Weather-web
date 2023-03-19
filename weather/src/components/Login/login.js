@@ -5,7 +5,7 @@ const login = () => {
   >
   <div
   id="modalLogin"
-    class="flex z-10 justify-center items-center w-7/12 bg-gray-100 shadow-lg rounded-lg"
+    class="flex z-30 justify-center items-center w-7/12 bg-gray-100 shadow-lg rounded-lg"
   >
     <div class="w-1/2">
       <img
