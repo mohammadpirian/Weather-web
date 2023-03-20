@@ -6,14 +6,46 @@
       "author": "typicode"
     }
   ],
-  "comments": [
+  "users": [
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "name": "Keaton Holland",
+      "lastname": "William",
+      "email": "qanupujyre@mailinator.com",
+      "username": "hizucapa",
+      "password": "Pa$$w0rd!",
+      "id": 1
+    },
+    {
+      "name": "Keaton Holland",
+      "lastname": "William",
+      "email": "qanupujyre@mailinator.com",
+      "username": "hizucapa",
+      "password": "Pa$$w0rd!",
+      "id": 2
+    },
+    {
+      "name": "Warren Patrick",
+      "lastname": "Carter",
+      "email": "qeruv@mailinator.com",
+      "username": "kyzewy",
+      "password": "Pa$$w0rd!",
+      "id": 3
+    },
+    {
+      "name": "Warren Patrick",
+      "lastname": "Carter",
+      "email": "qeruv@mailinator.com",
+      "username": "kyzewy",
+      "password": "Pa$$w0rd!",
+      "id": 4
+    },
+    {
+      "name": "Alea Holloway",
+      "lastname": "Mclean",
+      "email": "nuqe@mailinator.com",
+      "username": "nacamaju",
+      "password": "Pa$$w0rd!",
+      "id": 5
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }

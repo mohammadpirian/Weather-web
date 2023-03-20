@@ -48,36 +48,41 @@ const signup = () => {
       />
     </div>
     <div class="w-1/2">
-      <form action="" class="flex flex-col w-full p-4 gap-2">
+      <form action="" class="flex flex-col w-full p-4 gap-2" id="signForm">
         <label for="">نام:</label>
         <input
           type="text"
           class="p-2 w-full rounded-md shadow"
           placeholder="لطفا نام خود را وارد کنید"
+          name="name"
         />
         <label for="">نام خانوادگی:</label>
         <input
           type="text"
           class="p-2 w-full rounded-md shadow"
           placeholder="لطفا نام خانوادگی خود را وارد کنید"
+          name="lastname"
         />
         <label for="">ایمیل:</label>
         <input
           type="text"
           class="p-2 w-full rounded-md shadow"
           placeholder="لطفا ایمیل خود را وارد کنید"
+          name="email"
         />
         <label for="">نام کاربری:</label>
         <input
           type="text"
           class="p-2 w-full rounded-md shadow"
           placeholder="لطفا نام کاربری خود را وارد کنید"
+          name="username"
         />
         <label for="">رمز عبور:</label>
           <input
             type="password"
             class="p-2 w-full rounded-md shadow"
             placeholder="لطفا رمز عبور خود را وارد کنید"
+            name="password"
           />
         <button
           type="submit"
