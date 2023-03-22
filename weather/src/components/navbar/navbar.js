@@ -3,7 +3,7 @@ import Navbar from "./navbar";
 
 const navbar = () => {
   return ` <nav
-  class="w-full p-2 px-6 bg-gray-200 dark:bg-gray-700 flex shadow-xl items-center justify-between"
+  class="w-full p-2 px-6 bg-gray-200 dark:bg-gray-700 flex shadow-xl items-center justify-between "
 >
 <div class="flex gap-4">
 <button id="openSignupBtn">
@@ -41,7 +41,7 @@ const navbar = () => {
     </button>
   </div>
 
-  <form class="flex items-center">
+  <form class="flex items-center" id:"searchform">
     <div class="relative w-full">
       <div
         class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none"
@@ -62,7 +62,7 @@ const navbar = () => {
       </div>
       <input
         type="text"
-        id="simple-search"
+        id="search-city"
         class="bg-gray-50 w-80 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block  pl-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
         placeholder="جستجو در شهرها..."
         required
