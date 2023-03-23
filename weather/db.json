@@ -46,6 +46,14 @@
       "username": "nacamaju",
       "password": "Pa$$w0rd!",
       "id": 5
+    },
+    {
+      "name": "mohammad",
+      "lastname": "piriyan",
+      "email": "mohammadpiriyan2@gmail.com",
+      "username": "8132530028",
+      "password": "asdasd",
+      "id": 6
     }
   ]
 }
