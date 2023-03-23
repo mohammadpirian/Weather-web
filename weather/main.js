@@ -21,6 +21,11 @@ closeLogin();
 closeSignup();
 postdatasignup();
 weather.fetchWeather("همدان");
+weather.fetchWeather1("تهران")
+weather.fetchWeather2("مشهد")
+weather.fetchWeather3("اهواز")
+weather.fetchWeather4("بروجرد")
+weather.fetchWeather5("البرز")
 search();
 
 // document
