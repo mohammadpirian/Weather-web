@@ -1,6 +1,6 @@
 const navbar = () => {
   return ` <nav
-  class="w-full p-2 px-6 bg-gray-200 dark:bg-gray-700 flex shadow-xl items-center justify-between "
+  class="w-full p-2 px-6 bg-gray-200 dark:bg-gray-700 flex shadow-xl items-center justify-between fixed top-0 z-50"
 >
 <div class="flex gap-4">
 <button id="openSignupBtn">
@@ -9,7 +9,7 @@ const navbar = () => {
     <button
       id="theme-toggle"
       type="button"
-      class="text-gray-500 w-12 h-12 flex justify-center items-center dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-600 focus:outline-none focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5"
+      class="text-gray-500 w-12 h-12 flex justify-center items-center dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-600 focus:outline-none focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 z-100"
     >
       <svg
         id="theme-toggle-dark-icon"
@@ -86,5 +86,3 @@ const navbar = () => {
 </nav>`;
 };
 export default navbar;
-
-

@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "flowbite": "^1.6.4",
+    "js-cookie": "^3.0.1",
     "json-server": "^0.17.2",
     "lodash": "^4.17.21"
   }

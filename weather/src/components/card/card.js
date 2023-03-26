@@ -27,6 +27,7 @@ export let weather = {
     document.querySelector(".humidity").innerText =
       "Humidity: " + humidity + "%";
     document.querySelector(".wind").innerText = "wind speed: " + speed + "km/h";
+    document.getElementById("Spinner").classList.add("hidden");
   },
   fetchWeather1: function (city) {
     fetch(
@@ -117,7 +118,7 @@ export let weather = {
     document.querySelector(".wind3").innerText =
       "wind speed: " + speed + "km/h";
   },
-  
+
   fetchWeather4: function (city) {
     fetch(
       "https://api.openweathermap.org/data/2.5/weather?q=" +
@@ -148,7 +149,6 @@ export let weather = {
       "wind speed: " + speed + "km/h";
   },
 
-  
   fetchWeather5: function (city) {
     fetch(
       "https://api.openweathermap.org/data/2.5/weather?q=" +

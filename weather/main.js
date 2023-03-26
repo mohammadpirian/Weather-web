@@ -6,10 +6,13 @@ import openSignup from "./src/components/signup/openSignup";
 import openLogin from "./src/components/login/openLogin";
 import { closeLogin } from "./src/components/login/closeLogin";
 import { closeSignup } from "./src/components/signup/closeSignup";
-import { postdatasignup } from "./src/components/Functions/postdatasignup";
+import { postdatasignup } from "./src/components/Functions/signup/postdatasignup";
 import { weather } from "./src/components/card/card";
 // import { debounce } from "lodash/function.js";
 import { search } from "./src/components/Functions/search";
+import { postdatalogin } from "./src/components/Functions/login/postdatalogin";
+import { coockieSet } from "./src/components/Functions/coockieset";
+import loading from "./src/components/Functions/loading/loading";
 
 const root = document.getElementById("app");
 
@@ -20,12 +23,18 @@ openLogin();
 closeLogin();
 closeSignup();
 postdatasignup();
+postdatalogin();
+coockieSet();
+
+document.body.insertAdjacentHTML("beforeend", loading());
+
+
 weather.fetchWeather("همدان");
-weather.fetchWeather1("تهران")
-weather.fetchWeather2("مشهد")
-weather.fetchWeather3("اهواز")
-weather.fetchWeather4("بروجرد")
-weather.fetchWeather5("البرز")
+weather.fetchWeather1("تهران");
+weather.fetchWeather2("مشهد");
+weather.fetchWeather3("اهواز");
+weather.fetchWeather4("بروجرد");
+weather.fetchWeather5("البرز");
 search();
 
 // document
