@@ -4,7 +4,10 @@ const navbar = () => {
 >
 <div class="flex gap-4">
 <button id="openSignupBtn">
-<img class="w-12" src="src/icon/user.png" alt="" />
+<img class="w-12" src="src/logo/m.png" alt=""/>
+</button>
+<button id="SignoutBtn" class="hidden">
+<img class="w-12" src="src/logo/red.png" alt=""/>
 </button>
     <button
       id="theme-toggle"

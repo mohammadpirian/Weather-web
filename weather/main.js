@@ -13,6 +13,7 @@ import { search } from "./src/components/Functions/search";
 import { postdatalogin } from "./src/components/Functions/login/postdatalogin";
 import { coockieSet } from "./src/components/Functions/coockieset";
 import loading from "./src/components/Functions/loading/loading";
+import { signout } from "./src/components/Functions/signout.js/signout";
 
 const root = document.getElementById("app");
 
@@ -25,9 +26,9 @@ closeSignup();
 postdatasignup();
 postdatalogin();
 coockieSet();
+signout();
 
 document.body.insertAdjacentHTML("beforeend", loading());
-
 
 weather.fetchWeather("همدان");
 weather.fetchWeather1("تهران");

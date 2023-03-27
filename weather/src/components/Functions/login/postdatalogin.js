@@ -26,7 +26,7 @@ export let postdatalogin = () => {
       // console.log(dataLgn.username);
       if (data.length === 1) {
         Cookies.set("token", data[0].username, { expires: 1 });
-        alert("slm ali");
+        alert("Welcome to MAMAD Weather 😎");
       }
     });
     logForm.reset();
