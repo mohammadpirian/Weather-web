@@ -1,6 +1,6 @@
 const navbar = () => {
   return ` <nav
-  class="w-full p-2 px-6 bg-gray-200 dark:bg-gray-700 flex shadow-xl items-center justify-between fixed top-0 z-50"
+  class="w-full p-2 px-6 bg-gray-200 dark:bg-gray-700 flex shadow-xl items-center justify-between fixed top-0"
 >
 <div class="flex gap-4">
 <button id="openSignupBtn">

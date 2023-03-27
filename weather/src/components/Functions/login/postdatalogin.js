@@ -1,4 +1,5 @@
 import Cookies from "js-cookie";
+import { closeLogin } from "./../../login/closeLogin";
 
 export let postdatalogin = () => {
   const logForm = document.getElementById("logForm");
@@ -26,6 +27,7 @@ export let postdatalogin = () => {
       // console.log(dataLgn.username);
       if (data.length === 1) {
         Cookies.set("token", data[0].username, { expires: 1 });
+        location.reload();
         alert("Welcome to MAMAD Weather 😎");
       }
     });
