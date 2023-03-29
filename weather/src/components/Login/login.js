@@ -1,7 +1,7 @@
 const login = () => {
   return `<div
   id="loginForm"
-  class="w-full h-full flex justify-center items-center backdrop-blur absolute top-0 z-20 hidden"
+  class="w-full h-full flex justify-center items-center backdrop-blur absolute top-0 z-70 hidden"
   >
   <div
   id="modalLogin"
