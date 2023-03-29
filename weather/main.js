@@ -30,12 +30,12 @@ signout();
 
 document.body.insertAdjacentHTML("beforeend", loading());
 
-weather.fetchWeather("همدان");
-weather.fetchWeather1("تهران");
-weather.fetchWeather2("مشهد");
-weather.fetchWeather3("اهواز");
-weather.fetchWeather4("بروجرد");
-weather.fetchWeather5("البرز");
+weather.fetchWeather("hamedan");
+weather.fetchWeather1("tehran");
+weather.fetchWeather2("paris");
+weather.fetchWeather3("amsterdam");
+weather.fetchWeather4("moscow");
+weather.fetchWeather5("toronto");
 search();
 
 // document

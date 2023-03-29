@@ -23,13 +23,13 @@
   <body class="w-screen h-screen overflow-x-hidden bg-white dark:bg-gray-800">
     <div>
       <img
-        src="src/img/parent.png"
+        src="src/img/-dark.png"
         class="absolute -z-10 left-0 w-screen h-screen hidden"
         id="bacground-img-light"
         alt=""
       />
       <img
-        src="src/img/parent.png"
+        src="src/img/-dark.png"
         class="absolute -z-10 left-0 w-screen h-screen hidden"
         id="bacground-img-dark"
         alt=""
@@ -37,39 +37,108 @@
     </div>
     <div id="app" class="w-full"></div>
 
-    <div class="w-screen flex fixed top-0 items-center">
+    <div class="w-screen flex fixed justify-between top-0 items-center">
       <side
         class="dark:bg-gray-700 bg-gray-200 backdrop:blur-sm w-3/12 h-screen top-0 z-10 opacity-80 flex flex-col items-end p-2 justify-between"
       >
         <div class="w-full dark:text-white mt-20">
-          <button class="w-full p-2 hover:bg-slate-300 flex rounded-md">
+          <button
+            class="w-full p-2 hover:bg-slate-300 dark:hover:bg-slate-500 flex rounded-md"
+          >
+            <img
+              src="src/icon/admin-night.png"
+              class="w-7 ml-3 hidden"
+              id="icon-1"
+              alt=""
+            />
+            <img src="src/icon/admin.png" class="w-7 ml-3 dark:hidden" alt="" />
             <h2 class="font-thin text-2xl">پنل مدیریت</h2>
-            <img src="" alt="" />
           </button>
-          <button class="w-full p-2 hover:bg-slate-300 flex rounded-md">
+          <button
+            class="w-full p-2 hover:bg-slate-300 flex rounded-md dark:hover:bg-slate-500"
+          >
+            <img
+              src="src/icon/map2-night.png"
+              class="w-7 ml-3 hidden"
+              id="icon-2"
+              alt=""
+            />
+            <img src="src/icon/map2.png" class="w-7 ml-3 dark:hidden" alt="" />
             <h2 class="font-thin text-2xl">نقشه</h2>
-            <img src="" alt="" />
           </button>
-          <button class="w-full p-2 hover:bg-slate-300 flex rounded-md">
+          <button
+            class="w-full p-2 hover:bg-slate-300 flex rounded-md dark:hover:bg-slate-500"
+          >
+            <img
+              src="src/icon/map-night.png"
+              class="w-6 ml-3 hidden"
+              id="icon-3"
+              alt=""
+            />
+            <img src="src/icon/map.png" class="w-6 ml-3 dark:hidden" alt="" />
             <h2 class="font-thin text-2xl">مکان های ذخیره شده</h2>
-            <img src="" alt="" />
           </button>
-          <button class="w-full p-2 hover:bg-slate-300 flex rounded-md">
-            <h2 class="font-thin text-2xl">تقویم</h2>
-            <img src="" alt="" /></button
-          ><button class="w-full p-2 hover:bg-slate-300 flex rounded-md">
+          <button
+            class="w-full p-2 hover:bg-slate-300 flex rounded-md dark:hover:bg-slate-500"
+          >
+            <img
+              src="src/icon/calendr-night.png"
+              class="w-6 ml-3 hidden"
+              id="icon-4"
+              alt=""
+            />
+            <img
+              src="src/icon/calendr.png"
+              class="w-6 ml-3 dark:hidden"
+              alt=""
+            />
+            <h2 class="font-thin text-2xl">تقویم</h2></button
+          ><button
+            class="w-full p-2 hover:bg-slate-300 flex rounded-md dark:hover:bg-slate-500"
+          >
+            <img
+              src="src/icon/setting-night.png"
+              class="w-7 ml-3 hidden"
+              id="icon-5"
+              alt=""
+            />
+            <img
+              src="src/icon/setting2.png"
+              class="w-7 ml-3 dark:hidden"
+              alt=""
+            />
             <h2 class="font-thin text-2xl">تنظیمات</h2>
-            <img src="" alt="" />
           </button>
 
           <button
             id="openSignupBtn"
-            class="w-full p-2 hover:bg-slate-300 flex rounded-md"
+            class="w-full p-2 hover:bg-slate-300 flex rounded-md dark:hover:bg-slate-500"
           >
+            <img
+              src="src/icon/login-night.png"
+              class="w-7 ml-3 hidden"
+              id="icon-6"
+              alt=""
+            />
+            <img src="src/icon/login.png" class="w-7 ml-3 dark:hidden" alt="" />
             <p class="font-thin text-2xl">ثبت نام</p>
           </button>
-          <button id="SignoutBtn" class="hidden">
-            <p>خروج</p>
+          <button
+            id="SignoutBtn"
+            class="w-full p-2 hover:bg-slate-300 flex rounded-md dark:hover:bg-slate-500 hidden"
+          >
+            <img
+              src="src/icon/logout-night.png"
+              class="w-7 ml-3 hidden"
+              id="icon-7"
+              alt=""
+            />
+            <img
+              src="src/icon/logout.png"
+              class="w-7 ml-3 dark:hidden"
+              alt=""
+            />
+            <p class="font-thin text-2xl">خروج</p>
           </button>
         </div>
 
@@ -106,7 +175,7 @@
       </side>
 
       <div
-        class="card dark:bg-gray-700 bg-gray-200 opacity-80 w-6/12 flex flex-col justify-center items-center text-center gap-8 dark:text-white rounded-2xl p-8"
+        class="card dark:bg-gray-700 bg-gray-200 opacity-80 w-4/12 flex flex-col justify-center items-center text-center gap-8 dark:text-white rounded-2xl p-8"
       >
         <div class="weather flex flex-col gap-12">
           <h2 class="city">weather in tehran</h2>
@@ -125,7 +194,7 @@
         class="flex flex-col h-screen w-3/12 dark:bg-gray-700 bg-gray-200 opacity-80 z-10 gap-12"
       >
         <div
-          class="card1 dark:bg-gray-700 bg-slate-200 w-full text-center gap-2 dark:text-white p-2 mt-20 hover:bg-slate-300"
+          class="card1 dark:bg-gray-700 bg-slate-200 w-full text-center gap-2 dark:text-white p-2 mt-20 hover:bg-slate-300 dark:hover:bg-slate-500"
         >
           <div class="weather1 flex items-center gap-2">
             <h2 class="city1">tehran</h2>
@@ -139,7 +208,7 @@
         </div>
 
         <div
-          class="card2 dark:bg-gray-700 bg-slate-200 w-full text-center gap-2 dark:text-white hover:bg-slate-300 p-2"
+          class="card2 dark:bg-gray-700 bg-slate-200 w-full text-center gap-2 dark:text-white hover:bg-slate-300 p-2 dark:hover:bg-slate-500"
         >
           <div class="weather2 flex items-center gap-2">
             <h2 class="city2">tehran</h2>
@@ -151,7 +220,7 @@
         </div>
 
         <div
-          class="card3 dark:bg-gray-700 bg-slate-200 w-full text-center gap-2 dark:text-white hover:bg-slate-300 p-2"
+          class="card3 dark:bg-gray-700 bg-slate-200 w-full text-center gap-2 dark:text-white hover:bg-slate-300 p-2 dark:hover:bg-slate-500"
         >
           <div class="weather3 flex items-center gap-2">
             <h2 class="city3">tehran</h2>
@@ -163,7 +232,7 @@
         </div>
 
         <div
-          class="card4 dark:bg-gray-700 bg-slate-200 w-full text-center gap-2 dark:text-white hover:bg-slate-300 p-2"
+          class="card4 dark:bg-gray-700 bg-slate-200 w-full text-center gap-2 dark:text-white hover:bg-slate-300 p-2 dark:hover:bg-slate-500"
         >
           <div class="weather4 flex items-center gap-2">
             <h2 class="city4">tehran</h2>
@@ -175,7 +244,7 @@
         </div>
 
         <div
-          class="card5 dark:bg-gray-700 bg-slate-200 w-full text-center gap-2 dark:text-white hover:bg-slate-300 p-2"
+          class="card5 dark:bg-gray-700 bg-slate-200 w-full text-center gap-2 dark:text-white hover:bg-slate-300 p-2 dark:hover:bg-slate-500"
         >
           <div class="weather5 flex items-center gap-2">
             <h2 class="city5">tehran</h2>
