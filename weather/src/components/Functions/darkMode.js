@@ -3,6 +3,8 @@ export let darkMode = () => {
   var themeToggleLightIcon = document.getElementById("theme-toggle-light-icon");
   var bacgroundToggleLight = document.getElementById("bacground-img-light");
   var bacgroundToggleDark = document.getElementById("bacground-img-dark");
+  var logolight = document.getElementById("logo-light");
+  var logonight = document.getElementById("logo-night");
 
   // Change the icons inside the button based on previous settings
   if (
@@ -12,9 +14,11 @@ export let darkMode = () => {
   ) {
     themeToggleLightIcon.classList.remove("hidden");
     bacgroundToggleLight.classList.remove("hidden");
+    logolight.classList.remove("hidden");
   } else {
     themeToggleDarkIcon.classList.remove("hidden");
     bacgroundToggleDark.classList.remove("hidden");
+    logonight.classList.remove("hidden");
   }
 
   var themeToggleBtn = document.getElementById("theme-toggle");
@@ -25,6 +29,8 @@ export let darkMode = () => {
     themeToggleLightIcon.classList.toggle("hidden");
     bacgroundToggleDark.classList.toggle("hidden");
     bacgroundToggleLight.classList.toggle("hidden");
+    logolight.classList.toggle("hidden");
+    logonight.classList.toggle("hidden");
 
     // if set via local storage previously
     if (localStorage.getItem("color-theme")) {

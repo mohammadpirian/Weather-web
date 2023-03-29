@@ -34,7 +34,7 @@
 const signup = () => {
   return `<div
   id="signupForm"
-  class="w-full h-full flex justify-center items-center backdrop-blur absolute top-0 z-70 hidden"
+  class="w-full h-full flex justify-center items-center backdrop-blur absolute top-0 z-50 hidden"
   >
   <div
   id="modalSignup"

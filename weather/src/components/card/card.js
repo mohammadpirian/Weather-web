@@ -18,15 +18,15 @@ export let weather = {
     const { temp, humidity } = data.main;
     const { speed } = data.wind;
     console.log(name, icon, description, temp, humidity, speed);
-    document.querySelector(".city").innerHTML = "Wheather in " + name;
+    document.querySelector(".city").innerHTML = "" + name;
     document.querySelector(".icon").src =
       "https://openweathermap.org/img/wn/" + icon + ".png";
     document.querySelector(".description").innerText =
-      "description:" + description;
+      "Description: " + description;
     document.querySelector(".temp").innerText = temp + "°C";
     document.querySelector(".humidity").innerText =
       "Humidity: " + humidity + "%";
-    document.querySelector(".wind").innerText = "wind speed: " + speed + "km/h";
+    document.querySelector(".wind").innerText = "Wind Speed: " + speed + "km/h";
     document.getElementById("Spinner").classList.add("hidden");
   },
   fetchWeather1: function (city) {
@@ -47,16 +47,15 @@ export let weather = {
     const { temp, humidity } = data1.main;
     const { speed } = data1.wind;
     console.log(name, icon, description, temp, humidity, speed);
-    document.querySelector(".city1").innerHTML = "Wheather in " + name;
+    document.querySelector(".city1").innerHTML = "📍" + name;
     document.querySelector(".icon1").src =
       "https://openweathermap.org/img/wn/" + icon + ".png";
     document.querySelector(".description1").innerText =
-      "description:" + description;
+      "DES: " + description;
     document.querySelector(".temp1").innerText = temp + "°C";
     document.querySelector(".humidity1").innerText =
-      "Humidity: " + humidity + "%";
-    document.querySelector(".wind1").innerText =
-      "wind speed: " + speed + "km/h";
+      "HU: " + humidity + "%";
+    
   },
 
   fetchWeather2: function (city) {
@@ -77,16 +76,15 @@ export let weather = {
     const { temp, humidity } = data2.main;
     const { speed } = data2.wind;
     console.log(name, icon, description, temp, humidity, speed);
-    document.querySelector(".city2").innerHTML = "Wheather in " + name;
+    document.querySelector(".city2").innerHTML = "📍" + name;
     document.querySelector(".icon2").src =
       "https://openweathermap.org/img/wn/" + icon + ".png";
     document.querySelector(".description2").innerText =
-      "description:" + description;
+      "DES: " + description;
     document.querySelector(".temp2").innerText = temp + "°C";
     document.querySelector(".humidity2").innerText =
-      "Humidity: " + humidity + "%";
-    document.querySelector(".wind2").innerText =
-      "wind speed: " + speed + "km/h";
+      "HU: " + humidity + "%";
+    
   },
 
   fetchWeather3: function (city) {
@@ -107,16 +105,15 @@ export let weather = {
     const { temp, humidity } = data3.main;
     const { speed } = data3.wind;
     console.log(name, icon, description, temp, humidity, speed);
-    document.querySelector(".city3").innerHTML = "Wheather in " + name;
+    document.querySelector(".city3").innerHTML = "📍" + name;
     document.querySelector(".icon3").src =
       "https://openweathermap.org/img/wn/" + icon + ".png";
     document.querySelector(".description3").innerText =
-      "description:" + description;
+      "DES: " + description;
     document.querySelector(".temp3").innerText = temp + "°C";
     document.querySelector(".humidity3").innerText =
-      "Humidity: " + humidity + "%";
-    document.querySelector(".wind3").innerText =
-      "wind speed: " + speed + "km/h";
+      "HU: " + humidity + "%";
+    
   },
 
   fetchWeather4: function (city) {
@@ -137,16 +134,15 @@ export let weather = {
     const { temp, humidity } = data4.main;
     const { speed } = data4.wind;
     console.log(name, icon, description, temp, humidity, speed);
-    document.querySelector(".city4").innerHTML = "Wheather in " + name;
+    document.querySelector(".city4").innerHTML = "📍" + name;
     document.querySelector(".icon4").src =
       "https://openweathermap.org/img/wn/" + icon + ".png";
     document.querySelector(".description4").innerText =
-      "description:" + description;
+      "DES: " + description;
     document.querySelector(".temp4").innerText = temp + "°C";
     document.querySelector(".humidity4").innerText =
-      "Humidity: " + humidity + "%";
-    document.querySelector(".wind4").innerText =
-      "wind speed: " + speed + "km/h";
+      "HU: " + humidity + "%";
+    
   },
 
   fetchWeather5: function (city) {
@@ -167,16 +163,15 @@ export let weather = {
     const { temp, humidity } = data5.main;
     const { speed } = data5.wind;
     console.log(name, icon, description, temp, humidity, speed);
-    document.querySelector(".city5").innerHTML = "Wheather in " + name;
+    document.querySelector(".city5").innerHTML = "📍" + name;
     document.querySelector(".icon5").src =
       "https://openweathermap.org/img/wn/" + icon + ".png";
     document.querySelector(".description5").innerText =
-      "description:" + description;
+      "DES: " + description;
     document.querySelector(".temp5").innerText = temp + "°C";
     document.querySelector(".humidity5").innerText =
-      "Humidity: " + humidity + "%";
-    document.querySelector(".wind5").innerText =
-      "wind speed: " + speed + "km/h";
+      "HU: " + humidity + "%";
+    
   },
 
   search: function (event) {
